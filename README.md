@@ -12,6 +12,8 @@ These softwares are for analysing finch vocalizations.
 
 # Installation
 
+Installation will be completed instantly.
+
 **Clone this repository**
 
 ```bash
@@ -40,6 +42,7 @@ Execute c_AIC_CNN.m.
 
 Execute d_corpas_plus_edge.m. Please align all parameters such as Prewitt's threshold with a_make_data_plus_edge.m.
 
+The entire process takes about 30 minutes in total.
 
 **Translate real-time voicing**
 
