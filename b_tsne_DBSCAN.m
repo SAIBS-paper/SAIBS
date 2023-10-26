@@ -1,4 +1,4 @@
-loading = true;
+loading = false;
 saving = true;
 
 if loading

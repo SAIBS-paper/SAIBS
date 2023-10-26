@@ -37,12 +37,12 @@ Execute b_tsne_DBSCAN.m. Changing each parameter of DBSCAN may improve clusterin
 
 Execute c_AIC_CNN.m.
 
+The entire process takes about 15 minutes in total.
 
-**Translate song files into text**
+**Translate song files into text (Optional)**
 
 Execute d_corpas_plus_edge.m. Please align all parameters such as Prewitt's threshold with a_make_data_plus_edge.m.
 
-The entire process takes about 30 minutes in total.
 
 **Translate real-time voicing**
 

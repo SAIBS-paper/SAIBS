@@ -6,7 +6,7 @@ t = t.cluster.';
 t = full(ind2vec(t));
 min_AIC = Inf;
 
-for k=12:20
+for k=12:16
     cannet = train(patternnet(k),x,t);
     predict = sim(cannet,x);
     n = length(t);
@@ -20,5 +20,5 @@ for k=12:20
     end
     
 end
-save('CNN194.mat', 'net
+save('CNN194.mat', 'net')
 disp('complete')
